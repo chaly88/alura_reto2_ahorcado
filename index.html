@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./styles.css">
+	<title>Challenge 2 Ahorcado</title>
+</head>
+<body>
+<header>
+	<a href="index.html">
+		<img src="images/Logo.png" alt="Logo">
+	</a>
+	
+</header>
+<div class="container">
+
+	<div class="hombre-ahorcado" class="hombre" alt="Imagen hombre">
+		<img src="images/figuras/1.png" id="hombre">
+	</div>
+	
+	<div class="adivinado">
+		<span class="letra adivinada">A</span>
+		<span class="letra adivinada">L</span>
+		<span class="letra adivinada"></span>
+		<span class="letra adivinada"></span>
+		<span class="letra adivinada"></span>
+	</div>
+	<div class="errado">
+		<span class="letra errada">B</span>
+		<span class="letra errada">J</span>
+		<span class="letra errada">K</span>
+		<span class="letra errada">C</span>
+	</div>
+
+	<form class="botones" action="javascript:void(0)">
+		<input type="button" value="Comenzar" class="btn-azul">
+		<input type="button" value="Cancelar" class="">
+	</form>
+</div>
+
+<script src="./ahorcado.js"></script>	
+</body>
+</html>
