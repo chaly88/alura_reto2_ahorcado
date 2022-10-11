@@ -36,7 +36,7 @@ header img{
 .hombre-ahorcado{
 	width: 100%;
 	text-align: center;
-	margin-bottom: 2rem;
+	margin-bottom: 1.8rem;
 	margin-top:1.2rem;
 	
 }
@@ -62,12 +62,12 @@ header img{
 .errado{
 	text-align: center;
 	margin-top: 1rem;
-	color: #242d34;
+	color: salmon;
 }
 .errada{
 	margin-left: 1rem;
 }
-[type="button"]{
+[type="button"],.btn{
 	width: 15rem;
 	padding: 1rem;
 	border-radius: 1rem;
@@ -76,7 +76,16 @@ header img{
 	background-color: inherit;
 
 }
-
+.btn{
+	text-decoration: none;
+	color: #0a3871;
+	width: 14rem;
+	display: inline-block;
+	padding: 0.8rem;
+}
+.btn:hover{
+opacity: 0.8;
+}
 [type="button"]:hover{
 	opacity: 0.8;
 }
@@ -89,4 +98,10 @@ header img{
 .btn-azul{
 	background-color: #0a3871;
 	color: white;
+}
+
+@media screen and (max-width: 800px){
+	.btn{
+		margin-top: 1rem;
+	}
 }

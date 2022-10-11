@@ -5,7 +5,9 @@
 		'ORACLE',
 		'NEXONE',
 		'JAVASCRIPT',
-		'CSS'
+		'CSS',
+		'HTML',
+		'LATAM'
 	];
 	//Variable para almacenar configuracion
 	var juego = null;
@@ -124,7 +126,7 @@ document.addEventListener('keydown', function(e) {
 	}else if(estado==1 && !finalizado){
 		let palabra = juego.palabra;
 		let fn = alertaPerdido.bind(undefined,palabra);
-		setTimeout(alertaPerdido,300);
+		setTimeout(fn,300);
 		finalizado=true;
 	}
 
