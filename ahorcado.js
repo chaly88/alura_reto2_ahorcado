@@ -112,7 +112,7 @@ document.addEventListener('keydown', function(event) {
   }
 });
 
-document.addEventListener('keydown', function(e) {
+document.addEventListener('keypress', function(e) {
 	var letra = e.key;
 	letra = letra.toUpperCase();
 	
