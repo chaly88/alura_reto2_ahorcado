@@ -11,34 +11,22 @@
 	<a href="index.html">
 		<img src="images/Logo.png" alt="Logo">
 	</a>
-	
 </header>
 <div class="container">
 
 	<div class="hombre-ahorcado" class="hombre" alt="Imagen hombre">
-		<img src="images/figuras/1.png" id="hombre">
+		<img id="hombre">
 	</div>
 	
-	<div class="adivinado">
-		<span class="letra adivinada">A</span>
-		<span class="letra adivinada">L</span>
-		<span class="letra adivinada"></span>
-		<span class="letra adivinada"></span>
-		<span class="letra adivinada"></span>
-	</div>
-	<div class="errado">
-		<span class="letra errada">B</span>
-		<span class="letra errada">J</span>
-		<span class="letra errada">K</span>
-		<span class="letra errada">C</span>
-	</div>
+	<div class="adivinado"></div>
+	<div class="errado"></div>
 
 	<form class="botones" action="javascript:void(0)">
-		<input type="button" value="Comenzar" class="btn-azul">
+		<input type="button" value="Comenzar" class="btn-azul" onclick="nuevoJuego()">
 		<input type="button" value="Cancelar" class="">
 	</form>
-</div>
 
+</div>
 <script src="./ahorcado.js"></script>	
 </body>
 </html>
